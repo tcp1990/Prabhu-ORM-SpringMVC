@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.gl.crm.model.Customer;
 
 @Repository
-public class CustomerDoaImpl implements CustomerDoa {
+public class CustomerDoaImpl implements CustomerDao {
 
 	@Autowired
 	SessionFactory factory;

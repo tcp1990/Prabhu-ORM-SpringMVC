@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.gl.crm.model.Customer;
 
-public interface CustomerDoa {
+public interface CustomerDao {
 
 	public void saveCustomer(Customer customer);
 
