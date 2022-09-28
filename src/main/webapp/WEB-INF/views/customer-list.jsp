@@ -56,8 +56,8 @@
 							<td>${customer.eMail}</td>
 							<td><a class="btn btn-warning"
 								href="update?id=${customer.id}">Update</a> | <a
-								class="btn btn-danger" href="delete?id=${customer.id}">Delete</a>
-							</td>
+								class="btn btn-danger" href="delete?id=${customer.id}"
+								onclick="return confirm('Are you sure you want to delete?')">Delete</a></td>
 						</tr>
 					</tbody>
 				</c:forEach>
