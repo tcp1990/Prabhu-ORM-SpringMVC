@@ -54,8 +54,7 @@
 								value="${customer.eMail}">
 						</div>
 
-						<button class="btn btn-outline-warning btn-lg type="
-							submit" class="btn btn-primary">Save</button>
+						<button class="btn btn-outline-warning btn-lg" type="submit" class="btn btn-primary">Save</button>
 					</form>
 				</div>
 				<div class="col-md-4"></div>
