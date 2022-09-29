@@ -17,13 +17,10 @@
 
 <body>
 	<div class="container p-3 my-3 bg-primary text-white">
-		<h2 style="text-align: center;">Welcome to Customer Relationship Management</h2>
-		<hr style="background-color: white; height: 5px;">
-
-		<p class="col-md-12 text-center">
-			<a class="btn btn-secondary btn-outline-warning btn-lg"
-				href="customers/list">Customers Info</a>
-		</p>
+		<%
+		String redirectURL = "customers/list";
+		response.sendRedirect(redirectURL);
+		%>
 	</div>
 </body>
 
